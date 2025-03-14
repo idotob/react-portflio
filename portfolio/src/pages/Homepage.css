@@ -1,0 +1,68 @@
+:root {
+    --main-color: #232627;
+    --text-body: #9E9FA0;
+    --light: #ffffff;
+    --button: #58dbca;
+
+    /*-- Fonts --*/
+    --heading:'Raleway', serif;
+    --body:'Roboto', sans-serif;
+}
+
+.resume {
+    width: 30%;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    background-color: var(--button);
+    border: 1px solid var(--button)
+}
+
+.description {
+    max-width: 30rem;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 0 auto;
+    color: var(--text-body);
+    width: 70%;
+    padding: 25px 80px;
+    border-radius: 4px;
+}
+
+form {
+    place-self: center;
+}
+
+.contact-header {
+    color: var(--light);
+    margin-bottom: 1rem;
+}
+  
+.form input {
+    width: 100%;
+    padding: 1rem 0 1rem 0.5rem;
+  }
+  
+.form textarea {
+    width: 100%;
+    font-family: var(--body);
+    padding: 0.8rem 0 0.8rem 0.5rem;
+  }
+  
+.form button {
+    background-color: var(--button);
+    color: var(--main-color);
+    border: none;
+    width: 100%;
+    padding: 1rem 0;
+    border-radius: 4px;
+    margin-top: .5rem;
+  }
+  
+form input, textarea {
+    margin: .5rem 0;
+    border-radius: 4px;
+    border: none;
+  }
