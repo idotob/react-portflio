@@ -10,7 +10,7 @@ import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  databaseURL: "https://portfolio-leads-9a13b-default-rtdb.europe-west1.firebasedatabase.app",
+  databaseURL: import.meta.env.VITE_FIREBASE_DATABASE_URL,
   authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
   projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
   storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
@@ -18,6 +18,7 @@ const firebaseConfig = {
   appId: import.meta.env.VITE_FIREBASE_APP_ID,
   measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
 };
+console.log(firebaseConfig.projectId)
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
