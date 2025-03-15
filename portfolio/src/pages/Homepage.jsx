@@ -12,10 +12,9 @@ function Homepage () {
       message: formData.get("message")
     }
   }
-
-    
-
-  return (
+}
+  
+return (
       <>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"/>
@@ -121,6 +120,5 @@ function Homepage () {
         </footer>
       </>
   )
-}
 
 export default Homepage
