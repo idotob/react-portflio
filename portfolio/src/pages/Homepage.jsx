@@ -9,15 +9,15 @@ import { useState } from 'react'
 function Homepage () {
 
   const handleSubmission = async (formData) => {
-    const data = {
-      fullname: formData.get("full-name"),
-      email: formData.get("email"),
-      message: formData.get("message")
+      const data = {
+        fullname: formData.get("full-name"),
+        email: formData.get("email"),
+        message: formData.get("message")
+      }
     }
-  }
-}
   
-return (
+  
+  return (
       <>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"/>
@@ -123,5 +123,5 @@ return (
         </footer>
       </>
   )
-
+}
 export default Homepage
