@@ -5,6 +5,7 @@
   --main-color: #232627;
   --text-body: #9E9FA0;
   --light: #ffffff;
+  --hover: #202223;
 
   /*-- Fonts --*/
   --heading:'Raleway', serif;
@@ -13,6 +14,7 @@
   --h1: 3rem;
   --mobile-h1: 2.2rem;
   --h2: 3rem;
+  --h3: 1.4rem;
   --h4: 0.9rem;
   --p: 1.2rem;
 }
@@ -202,15 +204,16 @@ img {
   padding: 7rem 4rem;
 }
 
-.all-project img {
-  max-width: 100%;
+.all-projects img {
+  max-width: 98%;
   display: block;
   object-fit: cover;
 }
 
 .all-projects {
-  gap: 1.6rem;
-  padding: 1rem;
+  display: grid;
+  gap: 2rem;
+  
 }
 
 .all-projects .project {
@@ -228,13 +231,8 @@ img {
   border-radius: 4px;
 }
 
-.all-projects .project:hover {
-  box-shadow: 0px 0px 18px rgba(1, 1, 18, 0.15);
-  cursor: pointer;
-}
-
 .all-projects .project h4 {
-  font-size: var(--h4);
+  font-size: var(--h3);
   padding-bottom: 0.6rem;
   color: var(--text-body)
 }

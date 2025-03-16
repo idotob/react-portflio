@@ -3,6 +3,7 @@ import projectOne from '../images/Project 1.png'
 import projectTwo from '../images/Project 2.png'
 import projectThree from '../images/Project 3.png'
 import './Homepage.css'
+import '../pages/styles.css'
 import { app, analytics } from '../message'
 import { useState } from 'react'
 
@@ -66,7 +67,7 @@ function Homepage () {
               <div className="project">
                 <a href="https://mariaemosional.com"><img src={projectTwo} alt="Maria Emosional"/></a>
                 <div>
-                  <h4>Divine Consulting</h4>
+                  <h4>Maria Emosional</h4>
                   <p>As a certified Responsive Web Designer with in-depth knowledge of HTML5, CSS and Figma, my designs are rooted in functionality and user experience. My education at Scrimba has honed my skills in JavaScript and React Js, empowering me to craft interactive and responsive websites. With fluency in English, French, and Yoruba, I bring a unique multicultural perspective to web development. My goal is to leverage these languages to create accessible and inclusive digital spaces while remaining eager to embrace new challenges and growth opportunities in the tech industry.</p>
                 </div>
               </div>
@@ -74,14 +75,14 @@ function Homepage () {
               <div className="project">
                 <a href="https://divineconsultingct.com/"><img src={projectThree} alt="Divine Consulting"/></a>
                 <div>
-                  <h4>Maria Emosional</h4>
+                  <h4>Divine Consulting</h4>
                   <p>As a certified Responsive Web Designer with in-depth knowledge of HTML5, CSS and Figma, my designs are rooted in functionality and user experience. My education at Scrimba has honed my skills in JavaScript and React Js, empowering me to craft interactive and responsive websites. With fluency in English, French, and Yoruba, I bring a unique multicultural perspective to web development. My goal is to leverage these languages to create accessible and inclusive digital spaces while remaining eager to embrace new challenges and growth opportunities in the tech industry.</p>
                 </div>
               </div>
             </div>
         </div>
 
-        <div className='form section'>
+        <div className="form section">
           <h3 className='contact-header'>Get In Touch</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
             <form action={handleSubmission}>
